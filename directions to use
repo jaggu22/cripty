@@ -1,0 +1,18 @@
+Details:-
+
+1. This programe is written in linux and in c language
+2. As C is platform dependant this works fine in ubuntu
+3. you must provide a relative path to the file to be encrypted from the directory of execution
+4. the encrypted.txt file is maintained with list of files encrypted.
+5. the code.txt file has values for each character and If you change the values encryption will be altered
+6. change code.txt only after decripting your encripted files otherwise data will be lost
+7. Both code.txt and encrypted.txt must be present in the directory of execution
+8. Never change encrypted.txt
+
+How to execute:- 
+
+1. open terminal ----------------->  ctrl+t
+2. navigate to the directory which has "crypt" file(executable) ----------> cd path/of/directory
+3. execute the file as follows -----------> ./crypt fileName
+	where fileName is path of file to be encripted or decripted
+	Don't worry about choosing between encript or decript the encrypted.txt is maintained to ease your work and it will take care of choosing. 
